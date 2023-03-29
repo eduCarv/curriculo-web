@@ -255,6 +255,10 @@ p {
     margin: 10px;
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .english {
+    display: none;
+  }
 }
 
 @media (max-width: 600px) {
@@ -264,5 +268,9 @@ p {
 
   .about .box .date_company {
     margin-bottom: 5px;
+  }
+
+  .english {
+    display: none;
   }
 }

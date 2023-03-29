@@ -230,6 +230,26 @@ p {
   list-style: none;
 }
 
+.english {
+  display: none; 
+}
+
+.flagUS {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  cursor: pointer;
+}
+
+.flagBR {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  cursor: pointer;
+}
+
 @media (max-width: 1000px) {
   .container {
     margin: 10px;

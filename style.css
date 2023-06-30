@@ -101,8 +101,7 @@ body {
   position: relative;
   background: #fff;
   padding: 40px;
-  margin: 10px 0;
-  cursor: pointer;
+  margin: 10px 0;  
 }
 
 .contacts ul li .icon {

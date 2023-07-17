@@ -273,3 +273,21 @@ p {
     display: none;
   }
 }
+
+@media (max-width: 550px) {
+  body {
+    width: 100%;        
+  }
+
+  .about .box {
+    flex-direction: column;
+  }
+
+  .about .box .date_company {
+    margin-bottom: 5px;
+  }
+
+  .english {
+    display: none;
+  }
+}

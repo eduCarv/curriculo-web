@@ -276,7 +276,14 @@ p {
 
 @media (max-width: 550px) {
   body {
-    width: 100%;        
+    width: 100vw;        
+    justify-content: flex-start;
+  }
+
+  .container {
+    .left_side {
+      padding: 10px;
+    }
   }
 
   .about .box {

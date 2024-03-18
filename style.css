@@ -281,13 +281,29 @@ p {
   }
 
   .container {
+    width: 100vw;
+
     .left_side {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .right_side {
+      width: 100%;
       padding: 10px;
     }
   }
+  
 
+  .contacts {
+    width: 95vw;
+  }
+  .about {
+    max-width: 95vw;
+  }
   .about .box {
     flex-direction: column;
+    max-width: 95vw;
   }
 
   .about .box .date_company {
@@ -296,5 +312,22 @@ p {
 
   .english {
     display: none;
+  }
+
+  .profile_text {
+    width: 95vw;
+  }
+
+  .box_container {
+    flex-direction: column;
+
+    .box {
+      margin: 0px;
+    }
+  }
+  
+  .flagBR, .flagUS {
+    top: -10px;
+    right: -10px;
   }
 }

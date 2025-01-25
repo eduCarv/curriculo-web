@@ -1,507 +1,591 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="style.css">
-  <script
-  src="https://code.jquery.com/jquery-3.6.4.js"
-  integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
-  crossorigin="anonymous"></script>
-  <title>Eduardo Carvalho</title>
-</head>
-<body>
-  <div class="portuguese">
-    <div class="container">
-      <div class="left_side">
-        <div class="profile_text">
-          <div class="img_box">
-            <img src="./img1.jpg" alt="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.js"
+      integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+      crossorigin="anonymous"
+    ></script>
+    <title>Eduardo Carvalho</title>
+  </head>
+  <body>
+    <div class="portuguese">
+      <div class="container">
+        <div class="left_side">
+          <div class="profile_text">
+            <div class="img_box">
+              <img src="./img1.jpg" alt="" />
+            </div>
+            <h2>Eduardo Carvalho<br /><span>Desenvolvedor FullStack</span></h2>
+
+            <div
+              class="flagUS"
+              title="See English Version"
+              onclick="changeLanguage('en')"
+            >
+              <img
+                src="https://img.icons8.com/color/48/null/usa-circular.png"
+              />
+            </div>
           </div>
-          <h2>Eduardo Carvalho<br><span>Desenvolvedor FullStack</span></h2>          
 
-          <div class="flagUS" title="See English Version" onclick="changeLanguage('en')">
-            <img src="https://img.icons8.com/color/48/null/usa-circular.png"/>
-          </div>          
-        </div>
+          <div class="contacts">
+            <h3 class="title">Contatos</h3>
+            <ul>
+              <li>
+                <span class="icon"
+                  ><i class="fa fa-phone" aria-hidden="true"></i
+                ></span>
+                <span class="text">(41) 9 9744-3696</span>
+              </li>
+              <li>
+                <span class="icon"
+                  ><i class="fa fa-envelope-o" aria-hidden="true"></i
+                ></span>
+                <span class="text">edu.ascarvalho@gmail.com</span>
+              </li>
+              <li>
+                <span class="icon"
+                  ><i class="fa fa-linkedin" aria-hidden="true"></i
+                ></span>
+                <span class="text"
+                  ><a
+                    href="https://www.linkedin.com/in/eduardo-augusto-da-silva-carvalho-83097511a/"
+                    target="_blank"
+                    >Meu LinkedIn</a
+                  ></span
+                >
+              </li>
+              <li>
+                <span class="icon"
+                  ><i class="fa fa-github" aria-hidden="true"></i
+                ></span>
+                <span class="text"
+                  ><a href="https://github.com/educarv" target="_blank"
+                    >Meu Github</a
+                  ></span
+                >
+              </li>
+              <li>
+                <span class="icon"
+                  ><i class="fa fa-map-marker" aria-hidden="true"></i
+                ></span>
+                <span class="text">Curitiba, Paraná, Brasil</span>
+              </li>
+            </ul>
+          </div>
 
-        <div class="contacts">
-          <h3 class="title">Contatos</h3>
-          <ul>
-            <li>
-              <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
-              <span class="text">(41) 9 9744-3696</span>
-            </li>
-            <li>
-              <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
-              <span class="text">edu.ascarvalho@gmail.com</span>
-            </li>
-            <li>
-              <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
-              <span class="text"><a href="https://www.linkedin.com/in/eduardo-augusto-da-silva-carvalho-83097511a/" target="_blank">Meu LinkedIn</a></span>
-            </li>
-            <li>
-              <span class="icon"><i class="fa fa-github" aria-hidden="true"></i></span>
-              <span class="text"><a href="https://github.com/educarv" target="_blank">Meu Github</a></span>
-            </li>
-            <li>
-              <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-              <span class="text">Curitiba, Paraná, Brasil</span>
-            </li>
-          </ul>
-        </div>
+          <div class="contacts education">
+            <h3 class="title">Formação</h3>
+            <ul>
+              <li>
+                <h5>2021</h5>
+                <h4>Web Design Completo</h4>
+                <h4>Origamid</h4>
+              </li>
+              <li>
+                <h5>2013 - 2019</h5>
+                <h4>Bacharel em Sistemas de Informação</h4>
+                <h4>UNIFAESP - Faculdade Anchieta</h4>
+              </li>
+            </ul>
+          </div>
 
-        <div class="contacts education">
-          <h3 class="title">Formação</h3>
-          <ul>          
-            <li>
-              <h5>2021</h5>            
-              <h4>Web Design Completo</h4>
-              <h4>Origamid</h4>
-            </li>          
-            <li>
-              <h5>2013 - 2019</h5>            
-              <h4>Bacharel em Sistemas de Informação</h4>
-              <h4>UNIFAESP - Faculdade Anchieta</h4>
-            </li>          
-          </ul>
-        </div>
-
-        <div class="contacts languages">
-          <h3 class="title">Idiomas</h3>        
+          <div class="contacts languages">
+            <h3 class="title">Idiomas</h3>
             <ul>
               <li>
                 <span class="text">Português</span>
                 <span class="percent">
-                  <div style="width: 100%;"></div>
+                  <div style="width: 100%"></div>
                 </span>
               </li>
               <li>
                 <span class="text">Inglês</span>
                 <span class="percent">
-                  <div style="width: 80%;"></div>
+                  <div style="width: 80%"></div>
                 </span>
               </li>
             </ul>
-        </div>
-      </div>
-
-      <div class="right_side">
-        <div class="about">
-          <h2 class="title2">Sobre mim</h2>
-          <p>De lógica robusta e código limpo busco a excelência em cada programa, enfatizando sempre a solução do problema pela simplicidade e com foco no todo.
-            <br><br>Com perfil autodidata, aprendi diversas habilidades para me integrar em qualquer equipe. Sou criativo, mas funciono melhor com metas estabelecidas, bem humorado
-            e com muita energia, sou o profissional que sua empresa precisa, vem bater um papo comigo!
-          </p>
+          </div>
         </div>
 
-        <div class="about">
-          <h2 class="title2">Experiências</h2>
-          <div class="box">
-            <div class="date_company">
-              <h5>07/2024 - Atualmente</h5>
-              <h5>GRUPO MARISTA - PUCPR</h5>
-            </div>
-            <div class="text">
-              <h4>Desenvolvedor FullStack PHP/Java / React</h4>
-              <p>Criar e manter soluções do Grupo Marista desde o controle de dados dos docentes a sistemas mais complexos usando a stack Java com Spring, React puro, SQL Server, Azure, Kafka e Docker.</p>
-            </div>
+        <div class="right_side">
+          <div class="about">
+            <h2 class="title2">Sobre mim</h2>
+            <p>
+              De lógica robusta e código limpo busco a excelência em cada
+              programa, enfatizando sempre a solução do problema pela
+              simplicidade e com foco no todo. <br /><br />Com perfil
+              autodidata, aprendi diversas habilidades para me integrar em
+              qualquer equipe. Sou criativo, mas funciono melhor com metas
+              estabelecidas, bem humorado e com muita energia, sou o
+              profissional que sua empresa precisa, vem bater um papo comigo!
+            </p>
           </div>
 
-          <div class="box">
-            <div class="date_company">
-              <h5>12/2022 - 06/02/2024</h5>
-              <h5>ECONET PUBLICAÇÕES PERIÓDICAS</h5>
-            </div>
-            <div class="text">
-              <h4>Desenvolvedor FullStack PHP - Laravel / VueJS</h4>
-              <p>Criar novas soluções para os diversos sistemas e ferramentas da empresa, bem como resolução de bugs. Linguagens usadas PHP 5.3, HTML, CSS, JS, VueJS, um pouco de Pearl. Docker e banco de dados MySQL. Sistemas operacionais Linux (principal) e Windows.
-              </p>
-            </div>
-          </div>
-
-          <div class="box">
-            <div class="date_company">
-              <h5>07/2021 - 07/2022</h5>
-              <h5>vhsys - Sistema de gestão</h5>
-            </div>
-            <div class="text">
-              <h4>Desenvolvedor FullStack JR III</h4>
-              <p>Resolução de bugs e criação de novas soluções do sistema utilizando a
-                linguagem PHP.Tive a oportunidade de trabalhar também com ReactJS + Typescript e Vue.JS.
-                Também tive muito contato com MySQL e Docker no dia a dia.
-              </p>
-            </div>
-          </div>
-
-          <div class="box">
-            <div class="date_company">
-              <h5>01/2021 - 06/2021</h5>
-              <h5>Chaves na Mão</h5>
-            </div>
-            <div class="text">
-              <h4>Programador JR</h4>
-              <p>Desenvolvimento de novas soluções para o portal chavesnamão.com.br
-                e o sistema administrativo da empresa.
-                Co-responsável pelas integrações entre diversos portais através de
-                APIs e webservice, utilizando principalmente as linguagens PHP, HTML,
-                CSS, JS, JSON, XML e React com Nextjs
-                Também trabalhando com as ferramentas docker, nginx e elasticsearch
-                Banco de dados MYSQL
-              </p>
-            </div>
-          </div>
-
-          <div class="box">
-            <div class="date_company">
-              <h5>08/2018 - 07/2020</h5>
-              <h5>Marcol Software</h5>
-            </div>
-            <div class="text">
-              <h4>Programador JR</h4>
-              <p>Desenvolvimento de soluções adicionando novos módulos ao sistema
-                ERP da empresa e ou modificando seus módulos
-                O desenvolvimento ocorreu tanto guiado como elaborado
-                individualmente, dependia de cada tarefa
-                Criação de relatórios complexos. Linguagens utilizadas Dataflex 17, 18 e 19, e VisualReports 5.
-              </p>
-            </div>
-          </div>
-
-          <div class="box">
-            <div class="date_company">
-              <h5>08/2016 - 08/2018</h5>
-              <h5>Marcol Software</h5>
-            </div>
-            <div class="text">
-              <h4>Técnico de Suporte</h4>
-              <p>Suporte no atendimento aos clientes do sistema ERP desenvolvido pela
-                empresa
-                Teste das novas funcionalidades, criação de manuais e elaboração de
-                roteiros para melhor experiência de usuário
-                Também atuei por um curto período como supervisor cuidando do
-                contato direto com os diretores das empresas clientes, implantação e
-                demonstração do sistema.              
-              </p>
-            </div>
-          </div>
-          
-        </div>
-
-        <div class="about skills">
-          <h2 class="title2">Habilidades</h2>
-          <div class="box_container">        
+          <div class="about">
+            <h2 class="title2">Experiências</h2>
             <div class="box">
-              <ul>
-                <li>                
-                  <h4>HTML5</h4>
-                </li>
-                <li>
-                  <h4>PHP</h4>
-                </li>
-                <li>
-                  <h4>CSS3</h4>
-                </li>
-                <li>
-                  <h4>Javascript</h4>
-                </li>
-              </ul>
+              <div class="date_company">
+                <h5>07/2024 - Atualmente</h5>
+                <h5>GRUPO MARISTA - PUCPR</h5>
+              </div>
+              <div class="text">
+                <h4>Desenvolvedor FullStack PHP/Java / React</h4>
+                <p>
+                  Criar e manter soluções do Grupo Marista desde o controle de
+                  dados dos docentes a sistemas mais complexos usando a stack
+                  Java com Spring, React puro, SQL Server, Azure, Kafka e
+                  Docker.
+                </p>
+              </div>
             </div>
-            
-            <div class="box">
-              <ul>
-                <li>
-                  <span class="icon"></span>
-                  <h4>Typescript</h4>
-                </li>
-                <li>
-                  <span class="icon"></span>
-                  <h4>ReactJS</h4>
-                </li>
-                <li>
-                  <span class="icon"></span>
-                  <h4>SQL</h4>
-                </li>
-                <li>
-                  <span class="icon"></span>
-                  <h4>GIT</h4>
-                </li>
-              </ul>
-            </div>        
 
             <div class="box">
-              <ul>
-                <li>
-                  <span class="icon"></span>
-                  <h4>VueJS</h4>
-                </li>
-                <li>
-                  <span class="icon"></span>
-                  <h4>Vuetify</h4>
-                </li>
-                <li>
-                  <span class="icon"></span>
-                  <h4>Docker</h4>
-                </li>
-                <li>
-                  <span class="icon"></span>
-                  <h4>MongoDB</h4>
-                </li>
-              </ul>
-            </div>        
+              <div class="date_company">
+                <h5>12/2022 - 06/02/2024</h5>
+                <h5>ECONET PUBLICAÇÕES PERIÓDICAS</h5>
+              </div>
+              <div class="text">
+                <h4>Desenvolvedor FullStack PHP - Laravel / VueJS</h4>
+                <p>
+                  Criar novas soluções para os diversos sistemas e ferramentas
+                  da empresa, bem como resolução de bugs. Linguagens usadas PHP
+                  5.3, HTML, CSS, JS, VueJS, um pouco de Pearl. Docker e banco
+                  de dados MySQL. Sistemas operacionais Linux (principal) e
+                  Windows.
+                </p>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="date_company">
+                <h5>07/2021 - 07/2022</h5>
+                <h5>vhsys - Sistema de gestão</h5>
+              </div>
+              <div class="text">
+                <h4>Desenvolvedor FullStack JR III</h4>
+                <p>
+                  Resolução de bugs e criação de novas soluções do sistema
+                  utilizando a linguagem PHP.Tive a oportunidade de trabalhar
+                  também com ReactJS + Typescript e Vue.JS. Também tive muito
+                  contato com MySQL e Docker no dia a dia.
+                </p>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="date_company">
+                <h5>01/2021 - 06/2021</h5>
+                <h5>Chaves na Mão</h5>
+              </div>
+              <div class="text">
+                <h4>Programador JR</h4>
+                <p>
+                  Desenvolvimento de novas soluções para o portal
+                  chavesnamão.com.br e o sistema administrativo da empresa.
+                  Co-responsável pelas integrações entre diversos portais
+                  através de APIs e webservice, utilizando principalmente as
+                  linguagens PHP, HTML, CSS, JS, JSON, XML e React com Nextjs
+                  Também trabalhando com as ferramentas docker, nginx e
+                  elasticsearch Banco de dados MYSQL
+                </p>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="date_company">
+                <h5>08/2018 - 07/2020</h5>
+                <h5>Marcol Software</h5>
+              </div>
+              <div class="text">
+                <h4>Programador JR</h4>
+                <p>
+                  Desenvolvimento de soluções adicionando novos módulos ao
+                  sistema ERP da empresa e ou modificando seus módulos O
+                  desenvolvimento ocorreu tanto guiado como elaborado
+                  individualmente, dependia de cada tarefa Criação de relatórios
+                  complexos. Linguagens utilizadas Dataflex 17, 18 e 19, e
+                  VisualReports 5.
+                </p>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="date_company">
+                <h5>08/2016 - 08/2018</h5>
+                <h5>Marcol Software</h5>
+              </div>
+              <div class="text">
+                <h4>Técnico de Suporte</h4>
+                <p>
+                  Suporte no atendimento aos clientes do sistema ERP
+                  desenvolvido pela empresa Teste das novas funcionalidades,
+                  criação de manuais e elaboração de roteiros para melhor
+                  experiência de usuário Também atuei por um curto período como
+                  supervisor cuidando do contato direto com os diretores das
+                  empresas clientes, implantação e demonstração do sistema.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about skills">
+            <h2 class="title2">Habilidades</h2>
+            <div class="box_container">
+              <div class="box">
+                <ul>
+                  <li>
+                    <h4>HTML5</h4>
+                  </li>
+                  <li>
+                    <h4>PHP</h4>
+                  </li>
+                  <li>
+                    <h4>CSS3</h4>
+                  </li>
+                  <li>
+                    <h4>Javascript</h4>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="box">
+                <ul>
+                  <li>
+                    <span class="icon"></span>
+                    <h4>Typescript</h4>
+                  </li>
+                  <li>
+                    <span class="icon"></span>
+                    <h4>ReactJS</h4>
+                  </li>
+                  <li>
+                    <span class="icon"></span>
+                    <h4>SQL</h4>
+                  </li>
+                  <li>
+                    <span class="icon"></span>
+                    <h4>GIT</h4>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="box">
+                <ul>
+                  <li>
+                    <span class="icon"></span>
+                    <h4>VueJS</h4>
+                  </li>
+                  <li>
+                    <span class="icon"></span>
+                    <h4>Vuetify</h4>
+                  </li>
+                  <li>
+                    <span class="icon"></span>
+                    <h4>Docker</h4>
+                  </li>
+                  <li>
+                    <span class="icon"></span>
+                    <h4>MongoDB</h4>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="english" style="display: none;">
-    <div class="container">
-      <div class="left_side">
-        <div class="profile_text">
-          <div class="img_box">
-            <img src="./img1.jpg" alt="">
+    <div class="english" style="display: none">
+      <div class="container">
+        <div class="left_side">
+          <div class="profile_text">
+            <div class="img_box">
+              <img src="./img1.jpg" alt="" />
+            </div>
+            <h2>Eduardo Carvalho<br /><span>FullStack Developer</span></h2>
+
+            <div
+              class="flagBR"
+              title="Ver versão em português"
+              onclick="changeLanguage('br')"
+            >
+              <img
+                src="https://img.icons8.com/color/48/null/brazil-circular.png"
+              />
+            </div>
           </div>
-          <h2>Eduardo Carvalho<br><span>FullStack Developer</span></h2>
 
-          <div class="flagBR" title="Ver versão em português" onclick="changeLanguage('br')">
-            <img src="https://img.icons8.com/color/48/null/brazil-circular.png"/>
+          <div class="contacts">
+            <h3 class="title">Contacts</h3>
+            <ul>
+              <li>
+                <span class="icon"
+                  ><i class="fa fa-phone" aria-hidden="true"></i
+                ></span>
+                <span class="text">+55 (41) 9 9744-3696</span>
+              </li>
+              <li>
+                <span class="icon"
+                  ><i class="fa fa-envelope-o" aria-hidden="true"></i
+                ></span>
+                <span class="text">edu.ascarvalho@gmail.com</span>
+              </li>
+              <li>
+                <span class="icon"
+                  ><i class="fa fa-linkedin" aria-hidden="true"></i
+                ></span>
+                <span class="text"
+                  ><a
+                    href="https://www.linkedin.com/in/eduardo-augusto-da-silva-carvalho-83097511a/"
+                    target="_blank"
+                    >My LinkedIn</a
+                  ></span
+                >
+              </li>
+              <li>
+                <span class="icon"
+                  ><i class="fa fa-github" aria-hidden="true"></i
+                ></span>
+                <span class="text"
+                  ><a href="https://github.com/educarv" target="_blank"
+                    >My Github</a
+                  ></span
+                >
+              </li>
+              <li>
+                <span class="icon"
+                  ><i class="fa fa-map-marker" aria-hidden="true"></i
+                ></span>
+                <span class="text">Curitiba, Paraná, Brasil</span>
+              </li>
+            </ul>
           </div>
-        </div>
 
-        <div class="contacts">
-          <h3 class="title">Contacts</h3>
-          <ul>
-            <li>
-              <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
-              <span class="text">+55 (41) 9 9744-3696</span>
-            </li>
-            <li>
-              <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
-              <span class="text">edu.ascarvalho@gmail.com</span>
-            </li>
-            <li>
-              <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
-              <span class="text"><a href="https://www.linkedin.com/in/eduardo-augusto-da-silva-carvalho-83097511a/" target="_blank">My LinkedIn</a></span>
-            </li>
-            <li>
-              <span class="icon"><i class="fa fa-github" aria-hidden="true"></i></span>
-              <span class="text"><a href="https://github.com/educarv" target="_blank">My Github</a></span>
-            </li>
-            <li>
-              <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-              <span class="text">Curitiba, Paraná, Brasil</span>
-            </li>
-          </ul>
-        </div>
+          <div class="contacts education">
+            <h3 class="title">Education</h3>
+            <ul>
+              <li>
+                <h5>2021</h5>
+                <h4>Web Design</h4>
+                <h4>Origamid</h4>
+              </li>
+              <li>
+                <h5>2013 - 2019</h5>
+                <h4>Bachelor in Information Systems</h4>
+                <h4>UNIFAESP - University Anchieta</h4>
+              </li>
+            </ul>
+          </div>
 
-        <div class="contacts education">
-          <h3 class="title">Education</h3>
-          <ul>          
-            <li>
-              <h5>2021</h5>            
-              <h4>Web Design</h4>
-              <h4>Origamid</h4>
-            </li>          
-            <li>
-              <h5>2013 - 2019</h5>            
-              <h4>Bachelor in Information Systems</h4>
-              <h4>UNIFAESP - University Anchieta</h4>
-            </li>          
-          </ul>
-        </div>
-
-        <div class="contacts languages">
-          <h3 class="title">Languages</h3>        
+          <div class="contacts languages">
+            <h3 class="title">Languages</h3>
             <ul>
               <li>
                 <span class="text">Portuguese</span>
                 <span class="percent">
-                  <div style="width: 100%;"></div>
+                  <div style="width: 100%"></div>
                 </span>
               </li>
               <li>
                 <span class="text">English</span>
                 <span class="percent">
-                  <div style="width: 70%;"></div>
+                  <div style="width: 70%"></div>
                 </span>
               </li>
             </ul>
-        </div>
-      </div>
-
-      <div class="right_side">
-        <div class="about">
-          <h2 class="title2">About Me</h2>
-          <p>With robust logic and clean code, I strive for excellence in each program, always emphasizing problem solving through simplicity and focusing on the whole.
-            <br><br>With a self-taught profile, I learned several skills to integrate into any team. I am creative, but I work best with established goals, humorous
-            and with a lot of energy, I'm the professional your company needs, come chat with me!
-          </p>
+          </div>
         </div>
 
-        <div class="about">
-          <h2 class="title2">Work Experience</h2>
-          <div class="box">
-            <div class="date_company">
-              <h5>12/2022 - Actually</h5>
-              <h5>ECONET PUBLICAÇÕES PERIÓDICAS</h5>
-            </div>
-            <div class="text">
-              <h4>PHP Developer</h4>
-              <p>Create new solutions for the company's various systems and tools, as well as bug resolution. Languages ​​used outside of PHP 5.3, HTML, CSS, JS, VueJS, a little bit of Pearl. Docker and MySQL database. Linux (main) and Windows operating systems.
-              </p>
-            </div>
+        <div class="right_side">
+          <div class="about">
+            <h2 class="title2">About Me</h2>
+            <p>
+              With robust logic and clean code, I strive for excellence in each
+              program, always emphasizing problem solving through simplicity and
+              focusing on the whole. <br /><br />With a self-taught profile, I
+              learned several skills to integrate into any team. I am creative,
+              but I work best with established goals, humorous and with a lot of
+              energy, I'm the professional your company needs, come chat with
+              me!
+            </p>
           </div>
 
-          <div class="box">
-            <div class="date_company">
-              <h5>07/2021 - 07/2022</h5>
-              <h5>vhsys - Management system</h5>
-            </div>
-            <div class="text">
-              <h4>FullStack Developer JR III</h4>
-              <p>Bug resolution and creation of new system solutions using the
-                PHP language. I also had the opportunity to work with ReactJS + Typescript and Vue.JS.
-                I also had a lot of contact with MySQL and Docker on a daily basis.
-              </p>
-            </div>
-          </div>
-
-          <div class="box">
-            <div class="date_company">
-              <h5>01/2021 - 06/2021</h5>
-              <h5>Chaves na Mão (Keys on hand)</h5>
-            </div>
-            <div class="text">
-              <h4>Programmer JR</h4>
-              <p>Development of new solutions for the Chavesnamão.com.br portal
-                and the administrative system of the company.
-                Co-responsible for integrations between different portals through
-                APIs and webservice, using mainly PHP, HTML,
-                CSS, JS, JSON, XML and React with Nextjs
-                Also working with docker, nginx and elasticsearch tools
-                MYSQL database.
-              </p>
-            </div>
-          </div>
-
-          <div class="box">
-            <div class="date_company">
-              <h5>08/2018 - 07/2020</h5>
-              <h5>Marcol Software</h5>
-            </div>
-            <div class="text">
-              <h4>Programmer JR</h4>
-              <p>Development of solutions adding new modules to the system
-                ERP of the company and or modifying its modules
-                Development occurred both guided and elaborate
-                individually, depended on each task
-                Creation of complex reports. Languages ​​used Dataflex 17, 18 and 19, and VisualReports 5.
-              </p>
-            </div>
-          </div>
-
-          <div class="box">
-            <div class="date_company">
-              <h5>08/2016 - 08/2018</h5>
-              <h5>Marcol Software</h5>
-            </div>
-            <div class="text">
-              <h4>Support Technician</h4>
-              <p>Support in customer service of the ERP system developed by
-                company
-                Testing of new functionalities, creation of manuals and elaboration of
-                roadmaps for better user experience
-                I also worked for a short period as a supervisor taking care of the
-                direct contact with directors of client companies, implementation and
-                system demonstration.             
-              </p>
-            </div>
-          </div>
-          
-        </div>
-
-        <div class="about skills">
-          <h2 class="title2">Skills</h2>
-          <div class="box_container">        
+          <div class="about">
+            <h2 class="title2">Work Experience</h2>
             <div class="box">
-              <ul>
-                <li>                
-                  <h4>HTML5</h4>
-                </li>
-                <li>
-                  <h4>PHP</h4>
-                </li>
-                <li>
-                  <h4>CSS3</h4>
-                </li>
-                <li>
-                  <h4>Javascript</h4>
-                </li>
-              </ul>
+              <div class="date_company">
+                <h5>07/2024 - Now</h5>
+                <h5>Grupo Marista - PUCPR</h5>
+              </div>
+              <div class="text">
+                <h4>Software Engineer Mid</h4>
+                <p>
+                  Create and maintain Marista Group solutions, from managing
+                  teacher data to more complex systems, using the Java stack
+                  with Spring, pure React, SQL Server, Azure, Kafka, and Docker.
+                </p>
+              </div>
             </div>
-            
-            <div class="box">
-              <ul>
-                <li>
-                  <span class="icon"></span>
-                  <h4>Typescript</h4>
-                </li>
-                <li>
-                  <span class="icon"></span>
-                  <h4>ReactJS</h4>
-                </li>
-                <li>
-                  <span class="icon"></span>
-                  <h4>SQL</h4>
-                </li>
-                <li>
-                  <span class="icon"></span>
-                  <h4>GIT</h4>
-                </li>
-              </ul>
-            </div>        
 
             <div class="box">
-              <ul>
-                <li>
-                  <span class="icon"></span>
-                  <h4>VueJS</h4>
-                </li>
-                <li>
-                  <span class="icon"></span>
-                  <h4>Vutify</h4>
-                </li>
-                <li>
-                  <span class="icon"></span>
-                  <h4>Docker</h4>
-                </li>
-                <li>
-                  <span class="icon"></span>
-                  <h4>MongoDB</h4>
-                </li>
-              </ul>
-            </div>        
+              <div class="date_company">
+                <h5>12/2022 - 02/2024</h5>
+                <h5>ECONET PUBLICAÇÕES PERIÓDICAS</h5>
+              </div>
+              <div class="text">
+                <h4>Software Engineer Mid</h4>
+                <p>
+                  Create new solutions for the company's various systems and
+                  tools, as well as bug resolution. Languages ​​used outside of
+                  PHP 5.3, HTML, CSS, JS, VueJS, a little bit of Pearl. Docker
+                  and MySQL database. Linux (main) and Windows operating
+                  systems.
+                </p>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="date_company">
+                <h5>07/2021 - 07/2022</h5>
+                <h5>vhsys - Management system</h5>
+              </div>
+              <div class="text">
+                <h4>Software Engineer Junior III</h4>
+                <p>
+                  Bug resolution and creation of new system solutions using the
+                  PHP language. I also had the opportunity to work with ReactJS
+                  + Typescript and Vue.JS. I also had a lot of contact with
+                  MySQL and Docker on a daily basis.
+                </p>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="date_company">
+                <h5>01/2021 - 06/2021</h5>
+                <h5>Chaves na Mão (Keys on hand)</h5>
+              </div>
+              <div class="text">
+                <h4>Software Engineer Mid</h4>
+                <p>
+                  Development of new solutions for the Chavesnamão.com.br portal
+                  and the administrative system of the company. Co-responsible
+                  for integrations between different portals through APIs and
+                  webservice, using mainly PHP, HTML, CSS, JS, JSON, XML and
+                  React with Nextjs Also working with docker, nginx and
+                  elasticsearch tools MYSQL database.
+                </p>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="date_company">
+                <h5>08/2018 - 07/2020</h5>
+                <h5>Marcol Software</h5>
+              </div>
+              <div class="text">
+                <h4>Software Engineer Junior</h4>
+                <p>
+                  Development of solutions adding new modules to the system ERP
+                  of the company and or modifying its modules Development
+                  occurred both guided and elaborate individually, depended on
+                  each task Creation of complex reports. Languages ​​used
+                  Dataflex 17, 18 and 19, and VisualReports 5.
+                </p>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="date_company">
+                <h5>08/2016 - 08/2018</h5>
+                <h5>Marcol Software</h5>
+              </div>
+              <div class="text">
+                <h4>ERP Help Desk</h4>
+                <p>
+                  Support in customer service of the ERP system developed by
+                  company Testing of new functionalities, creation of manuals
+                  and elaboration of roadmaps for better user experience I also
+                  worked for a short period as a supervisor taking care of the
+                  direct contact with directors of client companies,
+                  implementation and system demonstration.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about skills">
+            <h2 class="title2">Skills</h2>
+            <div class="box_container">
+              <div class="box">
+                <ul>
+                  <li>
+                    <h4>HTML5</h4>
+                  </li>
+                  <li>
+                    <h4>PHP</h4>
+                  </li>
+                  <li>
+                    <h4>CSS3</h4>
+                  </li>
+                  <li>
+                    <h4>Javascript</h4>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="box">
+                <ul>
+                  <li>
+                    <span class="icon"></span>
+                    <h4>Typescript</h4>
+                  </li>
+                  <li>
+                    <span class="icon"></span>
+                    <h4>ReactJS</h4>
+                  </li>
+                  <li>
+                    <span class="icon"></span>
+                    <h4>SQL</h4>
+                  </li>
+                  <li>
+                    <span class="icon"></span>
+                    <h4>GIT</h4>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</body>
-<script>
-  function changeLanguage(language){
-    switch (language) {
-      case 'en':
-        $('.portuguese').prop('style', 'display: none;');
-        $('.english').prop('style', 'display: block;');
-      break;
-      case 'br':
-        $('.english').prop('style', 'display: none;');
-        $('.portuguese').prop('style', 'display: block;');
-      break;            
+  </body>
+  <script>
+    function changeLanguage(language) {
+      switch (language) {
+        case "en":
+          $(".portuguese").prop("style", "display: none;");
+          $(".english").prop("style", "display: block;");
+          break;
+        case "br":
+          $(".english").prop("style", "display: none;");
+          $(".portuguese").prop("style", "display: block;");
+          break;
+      }
     }
-  }
-</script>
+  </script>
 </html>
